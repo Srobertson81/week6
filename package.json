@@ -1,0 +1,17 @@
+{
+  "name": "bootcamp-week6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "war.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "ez-read": "^1.0.9",
+    "mocha": "^8.2.1",
+    "node-emoji": "^1.10.0"
+  }
+}

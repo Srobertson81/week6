@@ -1,0 +1,85 @@
+<html> 
+<head>
+    <title>War Card Game</title>    
+    <style>
+        .hide {
+            display: none;
+        }        
+        .player {
+            display: inline-block;
+            width: 200px;
+            min-height: 600px;
+            vertical-align: middle;
+            text-align: center;
+            font-size: 2em;            
+        }        
+        .card {
+            display: block;
+            margin: auto;
+            padding: 7px;
+            height: 110px;
+            width: 80px;
+            margin-top: 10px;
+            background-color: whitesmoke;
+            border: 1px solid black;
+            border-radius: 5px;            
+        }        
+        .big {
+            font-size: 1.5em;
+            text-align: center;
+            line-height: 45px;
+            margin-top: 10px;
+            display: block;
+        }        
+        .red {
+            color: red;
+        }        
+        .tiny {
+            display: block;
+            font-size: 0.6em;
+            line-height: 12px;
+            
+            text-align: left;
+        }        
+        .stats {
+            margin-top: 25px;
+            font-size: 0.8em;
+        }        
+        .gameplay {
+            background-color: white;
+        }        
+        .message {
+            font-size: 1.2em;
+            padding: 10px;
+        }        
+        .start {
+            font-size: 1.5em;
+            text-align: center;
+            padding: 10px;
+            background-color: cornflowerblue;
+            color: white;
+        }        
+        .attack {
+            font-size: 1.2em;
+            text-align: center;
+            padding: 10px;
+            background-color: orangered;
+            color: white;
+        }        
+        input {
+            width: 85px;
+            font-size: 2em;
+        }
+    </style>
+</head> 
+<body>
+    <div class="message">Number of Players</div>
+    <div class="userPlay">
+        <input type="number" value="2">
+        <button class="start">Start</button>
+        <button class="hide attack">Attack</button>
+        <div class="gameplay"></div>
+        <div class="res"></div>
+    </div>
+    <script src= "index.js"></script>
+</body>
